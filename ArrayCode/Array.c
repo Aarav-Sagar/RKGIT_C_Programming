@@ -87,14 +87,14 @@ int main()
     scanf("%d", &size);
     int a[size];
     inputArray(a, size);
-    printf("The Unsorted Array As Follows \n");
-    printArray(a, size);
-    // printf("The Sorted Array As Follows \n");
-    // bubbleSort(a, size);
+    // printf("The Unsorted Array As Follows \n");
     // printArray(a, size);
-    // // size = deletePosition(a, size, 2);
-    // printArray(a, size);
-    size = insertPosition(a, 3, 2, 999);
+    //  printf("The Sorted Array As Follows \n");
+    //  bubbleSort(a, size);
+    //  printArray(a, size);
+    //  // size = deletePosition(a, size, 2);
+    //  printArray(a, size);
+    // size = insertPosition(a, 3, 2, 999);
     printArray(a, size);
 
     return 0;
