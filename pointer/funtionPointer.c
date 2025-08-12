@@ -10,9 +10,9 @@ int sub(int a, int b)
 }
 int main()
 {
-    int (*const ptr)(int, int) = add;
+    int (*ptr)(int, int) = add;
     int add = ptr(12, 23);
-    ptr = sub;
+    // ptr = sub;
     // int sub = ptr(12, 23);
     printf("%d \n", add);
     // printf("%d \n", sub);

@@ -9,7 +9,7 @@ int main()
     }
 
     else
-
+        // if Curly Braces is not there than Single line is treated as its associated block
         printf("The Value of Y is Greater \n");
 
     printf("The End");
