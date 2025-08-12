@@ -3,9 +3,13 @@
 int main()
 {
 
-    const float x = 11.4;
+    // Here we are not assigning the value to x at the time of declaration
+    // if we declare a variable as const then that
+    // must be assined a value within the same line
+    const float x = 110.8;
+    float const y = 55.5;
     // expression must be a modifiable lvalue
-    x = 11.3;
+
     printf("%f", x);
     return 0;
 }
